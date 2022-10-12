@@ -10,9 +10,9 @@ const secondWord = prompt('Inserisci la seconda parola:');
 
 // controllo la lunghezza delle parole con un if statement
 if (firstWord.length > secondWord.length) {
-    console.log('Parola più corta: ', secondWord);
-    console.log('Parola più lunga: ', firstWord);
+    document.getElementById('second').innerHTML = `Parola più corta: ${secondWord}`;
+    document.getElementById('first').innerHTML = `Parola più lunga: ${firstWord}`;
 } else if (secondWord.length > firstWord.length) {
-    console.log('Parola più corta: ', firstWord);
-    console.log('Parola più lunga: ', secondWord);
-}
+    document.getElementById('second').innerHTML = `Parola più lunga: ${secondWord}`;
+    document.getElementById('first').innerHTML = `Parola più corta: ${firstWord}`;
+} 
