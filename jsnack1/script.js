@@ -17,3 +17,5 @@ if (firstNum > secondNum) {
     result = secondNum;
     console.log(`Il numero più grande è: ${result}`);
 }
+
+document.getElementById('risultato').innerHTML = `Il numero più grande è: ${result}`;
