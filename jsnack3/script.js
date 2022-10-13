@@ -24,4 +24,5 @@ while (i < 10) {
     somma = somma + userNum;
 }
 
+const print = document.querySelector('p').innerHTML = `La somma è: ${somma}`;
 console.log(somma);
